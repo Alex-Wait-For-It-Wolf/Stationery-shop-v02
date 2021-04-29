@@ -53,8 +53,18 @@ sudo su - postgres
 psql your_database
 CREATE EXTENSION pg_trgm;
 ```
+## api endpoints:
+
+your domain/en/api/shop/categories/
+
+your domain/en/api/shop/products/
+
+your domain/en/api/shop/products/<product_id>/
+
+your domain/en/api/orders/order_list/
 
 ## Things to improve
 
 Split requirements for production, development, testing. (Done in Stationery-shop-v02-with-Docker)
+
 Split settings for production, development, testing. (Done in Stationery-shop-v02-with-Docker)
